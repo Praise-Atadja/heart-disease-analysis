@@ -63,7 +63,6 @@ The Heart Disease dataset from the UCI Machine Learning Repository contains 303 
 - It is designed for classification tasks, primarily to distinguish the presence or absence of heart disease.
 
 ## Brief Description of Analysis.
-Certainly! Here's the summary of the clustering analysis using a table format:
 
 | Algorithm           | Silhouette Score | Davies-Bouldin Score | Insight                                                     |
 |---------------------|------------------|----------------------|--------------------------------------------------------------|
