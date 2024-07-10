@@ -66,10 +66,10 @@ The Heart Disease dataset from the UCI Machine Learning Repository contains 303 
 
 | Algorithm           | Silhouette Score | Davies-Bouldin Score | Insight                                                     |
 |---------------------|------------------|----------------------|--------------------------------------------------------------|
-| K-means             | 0.132971            | 2.083097                | Moderate cohesion and separation, suitable for clustering    |
-| Hierarchical        | 0.104476            | 2.174835                | Lower cohesion compared to K-means, less distinct clusters   |
-| DBSCAN              | -0.187293           | 1.610886                | Negative Silhouette Score, challenges in forming clusters    |
-| GMM                 | 0.110443            | 3.116615                | Similar Silhouette to hierarchical, highest Davies-Bouldin    |
+| K-means             | 0.132971            | 2.083097                | K-means clustering shows a moderate Silhouette Score, indicating reasonable cluster cohesion and separation. The Davies-Bouldin Score suggests that clusters are somewhat distinct but not perfectly well-separated. |
+| Hierarchical        | 0.104476            | 2.174835                | Hierarchical clustering exhibits a lower Silhouette Score compared to K-means, implying less distinct clusters. The Davies-Bouldin Score is slightly higher, indicating clusters that are less well-separated.   |
+| DBSCAN              | -0.187293           | 1.610886                | DBSCAN clustering yields a negative Silhouette Score, suggesting poor clustering structure or noise-dominated clusters. However, the Davies-Bouldin Score is relatively low, indicating better-defined clusters compared to the other methods.   |
+| GMM                 | 0.110443            | 3.116615                |GMM shows a comparable Silhouette Score to hierarchical clustering but has the highest Davies-Bouldin Score, indicating less well-separated clusters.    |
 
 ### Conclusion Summary
 
